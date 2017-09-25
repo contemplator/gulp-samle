@@ -1,0 +1,1 @@
+{"version":3,"sources":["base.scss","index.scss"],"names":[],"mappings":"AAAA,KACI,eACA,qBAAsB,CACzB;;ACFD,EACI,iBACA,sBACA,oBAAA,AAAa,oBAAb,AAAa,YAAA,CAChB","file":"main.css","sourcesContent":["html{\n    font-size: 14px;\n    background-color: #fff;\n}","// @import \"base\";\np{\n    font-size: 1.5rem;\n    border: 1px solid blue;\n    display: flex;\n}"]}
