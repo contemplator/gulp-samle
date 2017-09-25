@@ -44,7 +44,6 @@ gulp.task('styles', function () {
 // Scripts Task
 gulp.task('scripts', function () {
     return gulp.src([scriptsPaths.src])
-        .pipe(debug({title: 'unicorn:'}))
         .pipe(sourcemaps.init())
         .pipe(uglify())
         .pipe(concat('all.min.js'))

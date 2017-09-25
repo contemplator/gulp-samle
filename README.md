@@ -16,12 +16,29 @@ npm install
 gulp
 ```
 
+或者 
+
+```
+npm start
+```
+
 在瀏覽器輸入 http://localhost:8080 即可看到 hello world
 
 對在 src 下的 html 檔案，以及 \css, \js, \images 下的檔案進行修改，都會同步到 dist 資料夾下並重新連線 server，更新瀏覽器上的畫面。
 
 若要修改設定，請修改 gulpfile.js，並按下鍵盤的 Ctrl + C 關閉原本的 server，再重新開啟 server
 
+## 部署到 Github gh-pages branch 上
+
+```
+gulp deploy
+```
+
+或者
+
+```
+npm run deploy
+```
 
 ## 使用的套件
 

@@ -1,27 +1,29 @@
 {
-  "name": "gulp-sample",
-  "version": "1.0.0",
-  "description": "專為前端設計的 gulp 專案範例",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "gulp",
-    "web-front-end"
-  ],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-clean": "^0.3.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-livereload": "^3.8.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1"
-  }
+    "name": "gulp-sample",
+    "version": "1.0.0",
+    "description": "專為前端設計的 gulp 專案範例",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp",
+        "deploy": "gulp deploy",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "gulp",
+        "web-front-end"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-clean": "^0.3.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect": "^5.0.0",
+        "gulp-gh-pages": "^0.5.4",
+        "gulp-imagemin": "^3.3.0",
+        "gulp-livereload": "^3.8.1",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.1"
+    }
 }
